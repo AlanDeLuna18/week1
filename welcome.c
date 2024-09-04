@@ -14,10 +14,10 @@ int main(int argc, char** argv)
   printf("Hi %s, your name is %d characters long according to strlen.\n", name, length);
 
 
-  //Part that will be tested
+
   //Main part of the code!
   char firstLetter = name[0]; 
-  printf("The first letter in your name is %c\n", firstLetter); 
+  //printf("The first letter in your name is %c\n", firstLetter); 
 
   return 0;
 }
