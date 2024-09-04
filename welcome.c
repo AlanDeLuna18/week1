@@ -12,5 +12,9 @@ int main(int argc, char** argv)
   char* name = argv[1];
   int length = strlen(name);
   printf("Hi %s, your name is %d characters long according to strlen.\n", name, length);
+
+  char firstLetter = name[0]; 
+  printf("The first letter in your name is %c\n", firstLetter); 
+
   return 0;
 }
