@@ -17,7 +17,7 @@ int main(int argc, char** argv)
 
   //Main part of the code!
   char firstLetter = name[0]; 
-  //printf("The first letter in your name is %c\n", firstLetter); 
+  printf("The first letter in your name is %c\n", firstLetter); 
 
   return 0;
 }

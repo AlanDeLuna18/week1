@@ -36,3 +36,9 @@ What do you get as output? Edit this README file by copy-pasting or screenshotti
 
 Add your answers here:
 
+-When I tried "Joe Politz", everything worked fine and as expected. It said the first letter was 'J'
+-When I tried "'Joe Politz'", it completely ignored the quotation marks and still said that the first letter was 'J'
+-"José" was an interesting case since it mentioned that there were 5 letters. I would assume that its because of the accent mark on the 'e'. The compiler may have gotten confused and believed that the accent mark was another letter
+-Something similar happened with "Ülo", since it mentioned that there were 4 letters. It was also not able to return the first letter, likely because 'Ü' is not an ASCII character
+-Finally, '李' returned a total of 3 letters, likely because the Chinese surname has a completely different alphabet than the English language, so this may be the compilers way of remembering that. It was also not able to return a first letter since it is not an ASCII character 
+
